@@ -1,11 +1,20 @@
 Package: doomsday
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helper Functions For Doomsday Algorithm
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Marc-André Désautels
+Maintainer: Marc-André Désautels <marc-andre.desautels@cstjean.qc.ca>
+Description: Helper functions to help in writing an artcle on the 
+    doomsday algorithm by John Conway. Some functions find the doomsday for the
+    year, others pretty print the day of the week, etc.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.2
+Imports:
+    lubridate,
+    glue,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
