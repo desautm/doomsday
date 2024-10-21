@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of doomsday is to ...
+The goal of `doomsday` is to define simple helper functions for implementing the doomsday algorithm.
 
 ## Installation
 
@@ -36,6 +36,7 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(doomsday)
 ## basic example code
+
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

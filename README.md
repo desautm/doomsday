@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of doomsday is to …
+The goal of `doomsday` is to define simple helper functions for
+implementing the doomsday algorithm.
 
 ## Installation
 

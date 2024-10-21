@@ -7,7 +7,7 @@
 find_weekday(my_date, as_a_number = TRUE)
 }
 \arguments{
-\item{my_date}{A date in the format defined in lubridate, ymd("20211221")}
+\item{my_date}{A date in the format defined in lubridate, ymd(20211221)}
 
 \item{as_a_number}{A boolean to choose to give the day as a number or as a word, default = TRUE}
 }

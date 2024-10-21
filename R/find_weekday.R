@@ -1,6 +1,6 @@
 #' Finds the day of the week for a particular date
 #'
-#' @param my_date A date in the format defined in lubridate, ymd("20211221")
+#' @param my_date A date in the format defined in lubridate, ymd(20211221)
 #' @param as_a_number A boolean to choose to give the day as a number or as a word, default = TRUE
 #' @return A number or a word that gives the day of the week
 #'

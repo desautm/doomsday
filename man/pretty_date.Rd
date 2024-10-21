@@ -6,6 +6,16 @@
 \usage{
 pretty_date(my_date)
 }
+\arguments{
+\item{my_date}{A date in the format of YEAR-MONTH-DAY as a string}
+}
+\value{
+A string that prints the date in a pretty manner
+}
 \description{
 A function to pretty print a date
+}
+\examples{
+pretty_date(lubridate::ymd(20220113))
+pretty_date(lubridate::ymd(19780702))
 }

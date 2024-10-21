@@ -1,0 +1,10 @@
+test_that("test for rank of the century", {
+  expect_equal(century_rank(2000), 2)
+  expect_equal(century_rank(2100), 0)
+  expect_equal(century_rank(2200), 5)
+  expect_equal(century_rank(2300), 3)
+  expect_equal(century_rank(1600), 2)
+  expect_equal(century_rank(1700), 0)
+  expect_equal(century_rank(1800), 5)
+  expect_equal(century_rank(1900), 3)
+})
